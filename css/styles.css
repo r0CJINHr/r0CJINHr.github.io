@@ -23,7 +23,7 @@ li {
 
 .nav-link {
   text-decoration: none;
-  background-image: linear-gradient(currentColor, currentColor);
+  background-image: linear-gradient(blue, blue);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -32,4 +32,14 @@ li {
 
 .nav-link:hover {
   background-size: 100% 2px;
+}
+
+.card {
+  border-color: rgb(0, 81, 255);
+}
+
+body {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Open Sans";
 }
